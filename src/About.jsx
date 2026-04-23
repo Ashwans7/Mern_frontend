@@ -1,7 +1,11 @@
+import Button from "./Button"
 
 function About(){
     return(
-        <h1>This is about page</h1>
+       <>
+       <Button huhu="about" haha="222"/>
+       </>
+        
     )
 }
 

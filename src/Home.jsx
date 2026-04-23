@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import'./Home.css'
+import Button from './Button'
+import Card from './Card'
 
 function Home(){
 return(
@@ -14,13 +16,17 @@ return(
   </nav>
 
   
-  
     <div className="hero-content">
       <h1>Welcome to My Portfolio</h1>
       <p>I build modern web applications using MERN stack.</p>
       <button className="btn">View Projects</button>
     </div>
+
+     <Button huhu='Home' haha='123'/>
+     <Card title="Home Page"/>
     </>
+    
+ 
   
  
   
