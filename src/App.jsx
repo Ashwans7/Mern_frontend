@@ -6,11 +6,12 @@ import About from "./About"
 import Contact from "./Contact"
 import Test from "./Test"
 import UseState from "./UseState"
+import LearningUseEffect from "./UseEffect"
 
 
 function App() {
-  const name = "Ashwan"
-  const age = 12
+  // const name = "Ashwan"
+  // const age = 12
 
   return (
 
@@ -20,7 +21,8 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/test' element={<Test/>} />
-      <Route  path='/useState/' element={<UseState/>}/>
+      <Route  path='/useState' element={<UseState/>}/>
+      <Route path="UseEffect" element={<LearningUseEffect/>}/>
     </Routes>
     </BrowserRouter>
      
